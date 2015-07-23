@@ -1,0 +1,18 @@
+Test 1.0
+[code]
+void setup() {
+  // put your setup code here, to run once:
+  
+  Serial.begin(19200);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+digitalWrite(12, HIGH);
+digitalWrite(13, LOW);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+
+[/code]
